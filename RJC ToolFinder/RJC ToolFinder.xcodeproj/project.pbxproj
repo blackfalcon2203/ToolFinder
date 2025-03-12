@@ -1,0 +1,570 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BD2615A52D81CA190022ABED /* ToolFinderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2615A42D81CA190022ABED /* ToolFinderView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BDBA80D92D75DE720002F2A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BDBA80C02D75DE6E0002F2A9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BDBA80C72D75DE6E0002F2A9;
+			remoteInfo = "RJC ToolFinder";
+		};
+		BDBA80E32D75DE720002F2A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BDBA80C02D75DE6E0002F2A9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BDBA80C72D75DE6E0002F2A9;
+			remoteInfo = "RJC ToolFinder";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BD2615A42D81CA190022ABED /* ToolFinderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolFinderView.swift; sourceTree = "<group>"; };
+		BDBA80C82D75DE6E0002F2A9 /* RJC ToolFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RJC ToolFinder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDBA80D82D75DE720002F2A9 /* RJC ToolFinderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RJC ToolFinderTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDBA80E22D75DE720002F2A9 /* RJC ToolFinderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RJC ToolFinderUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		BDBA80CA2D75DE6E0002F2A9 /* RJC ToolFinder */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "RJC ToolFinder";
+			sourceTree = "<group>";
+		};
+		BDBA80DB2D75DE720002F2A9 /* RJC ToolFinderTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "RJC ToolFinderTests";
+			sourceTree = "<group>";
+		};
+		BDBA80E52D75DE720002F2A9 /* RJC ToolFinderUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "RJC ToolFinderUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BDBA80C52D75DE6E0002F2A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDBA80D52D75DE720002F2A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDBA80DF2D75DE720002F2A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BDBA80BF2D75DE6E0002F2A9 = {
+			isa = PBXGroup;
+			children = (
+				BD2615A42D81CA190022ABED /* ToolFinderView.swift */,
+				BDBA80CA2D75DE6E0002F2A9 /* RJC ToolFinder */,
+				BDBA80DB2D75DE720002F2A9 /* RJC ToolFinderTests */,
+				BDBA80E52D75DE720002F2A9 /* RJC ToolFinderUITests */,
+				BDBA80C92D75DE6E0002F2A9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BDBA80C92D75DE6E0002F2A9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BDBA80C82D75DE6E0002F2A9 /* RJC ToolFinder.app */,
+				BDBA80D82D75DE720002F2A9 /* RJC ToolFinderTests.xctest */,
+				BDBA80E22D75DE720002F2A9 /* RJC ToolFinderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BDBA80C72D75DE6E0002F2A9 /* RJC ToolFinder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDBA80EC2D75DE720002F2A9 /* Build configuration list for PBXNativeTarget "RJC ToolFinder" */;
+			buildPhases = (
+				BDBA80C42D75DE6E0002F2A9 /* Sources */,
+				BDBA80C52D75DE6E0002F2A9 /* Frameworks */,
+				BDBA80C62D75DE6E0002F2A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				BDBA80CA2D75DE6E0002F2A9 /* RJC ToolFinder */,
+			);
+			name = "RJC ToolFinder";
+			packageProductDependencies = (
+			);
+			productName = "RJC ToolFinder";
+			productReference = BDBA80C82D75DE6E0002F2A9 /* RJC ToolFinder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BDBA80D72D75DE720002F2A9 /* RJC ToolFinderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDBA80EF2D75DE720002F2A9 /* Build configuration list for PBXNativeTarget "RJC ToolFinderTests" */;
+			buildPhases = (
+				BDBA80D42D75DE720002F2A9 /* Sources */,
+				BDBA80D52D75DE720002F2A9 /* Frameworks */,
+				BDBA80D62D75DE720002F2A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BDBA80DA2D75DE720002F2A9 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				BDBA80DB2D75DE720002F2A9 /* RJC ToolFinderTests */,
+			);
+			name = "RJC ToolFinderTests";
+			packageProductDependencies = (
+			);
+			productName = "RJC ToolFinderTests";
+			productReference = BDBA80D82D75DE720002F2A9 /* RJC ToolFinderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BDBA80E12D75DE720002F2A9 /* RJC ToolFinderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDBA80F22D75DE720002F2A9 /* Build configuration list for PBXNativeTarget "RJC ToolFinderUITests" */;
+			buildPhases = (
+				BDBA80DE2D75DE720002F2A9 /* Sources */,
+				BDBA80DF2D75DE720002F2A9 /* Frameworks */,
+				BDBA80E02D75DE720002F2A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BDBA80E42D75DE720002F2A9 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				BDBA80E52D75DE720002F2A9 /* RJC ToolFinderUITests */,
+			);
+			name = "RJC ToolFinderUITests";
+			packageProductDependencies = (
+			);
+			productName = "RJC ToolFinderUITests";
+			productReference = BDBA80E22D75DE720002F2A9 /* RJC ToolFinderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BDBA80C02D75DE6E0002F2A9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					BDBA80C72D75DE6E0002F2A9 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					BDBA80D72D75DE720002F2A9 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = BDBA80C72D75DE6E0002F2A9;
+					};
+					BDBA80E12D75DE720002F2A9 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = BDBA80C72D75DE6E0002F2A9;
+					};
+				};
+			};
+			buildConfigurationList = BDBA80C32D75DE6E0002F2A9 /* Build configuration list for PBXProject "RJC ToolFinder" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BDBA80BF2D75DE6E0002F2A9;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = BDBA80C92D75DE6E0002F2A9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BDBA80C72D75DE6E0002F2A9 /* RJC ToolFinder */,
+				BDBA80D72D75DE720002F2A9 /* RJC ToolFinderTests */,
+				BDBA80E12D75DE720002F2A9 /* RJC ToolFinderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BDBA80C62D75DE6E0002F2A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDBA80D62D75DE720002F2A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDBA80E02D75DE720002F2A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BDBA80C42D75DE6E0002F2A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD2615A52D81CA190022ABED /* ToolFinderView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDBA80D42D75DE720002F2A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDBA80DE2D75DE720002F2A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BDBA80DA2D75DE720002F2A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BDBA80C72D75DE6E0002F2A9 /* RJC ToolFinder */;
+			targetProxy = BDBA80D92D75DE720002F2A9 /* PBXContainerItemProxy */;
+		};
+		BDBA80E42D75DE720002F2A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BDBA80C72D75DE6E0002F2A9 /* RJC ToolFinder */;
+			targetProxy = BDBA80E32D75DE720002F2A9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BDBA80EA2D75DE720002F2A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BDBA80EB2D75DE720002F2A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BDBA80ED2D75DE720002F2A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RJC ToolFinder/Preview Content\"";
+				DEVELOPMENT_TEAM = 4UD3ZG3G62;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "svbdev.RJC-ToolFinder";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BDBA80EE2D75DE720002F2A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RJC ToolFinder/Preview Content\"";
+				DEVELOPMENT_TEAM = 4UD3ZG3G62;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "svbdev.RJC-ToolFinder";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BDBA80F02D75DE720002F2A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4UD3ZG3G62;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "svbdev.RJC-ToolFinderTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RJC ToolFinder.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RJC ToolFinder";
+			};
+			name = Debug;
+		};
+		BDBA80F12D75DE720002F2A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4UD3ZG3G62;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "svbdev.RJC-ToolFinderTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RJC ToolFinder.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RJC ToolFinder";
+			};
+			name = Release;
+		};
+		BDBA80F32D75DE720002F2A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4UD3ZG3G62;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "svbdev.RJC-ToolFinderUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "RJC ToolFinder";
+			};
+			name = Debug;
+		};
+		BDBA80F42D75DE720002F2A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4UD3ZG3G62;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "svbdev.RJC-ToolFinderUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "RJC ToolFinder";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BDBA80C32D75DE6E0002F2A9 /* Build configuration list for PBXProject "RJC ToolFinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDBA80EA2D75DE720002F2A9 /* Debug */,
+				BDBA80EB2D75DE720002F2A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDBA80EC2D75DE720002F2A9 /* Build configuration list for PBXNativeTarget "RJC ToolFinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDBA80ED2D75DE720002F2A9 /* Debug */,
+				BDBA80EE2D75DE720002F2A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDBA80EF2D75DE720002F2A9 /* Build configuration list for PBXNativeTarget "RJC ToolFinderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDBA80F02D75DE720002F2A9 /* Debug */,
+				BDBA80F12D75DE720002F2A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDBA80F22D75DE720002F2A9 /* Build configuration list for PBXNativeTarget "RJC ToolFinderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDBA80F32D75DE720002F2A9 /* Debug */,
+				BDBA80F42D75DE720002F2A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BDBA80C02D75DE6E0002F2A9 /* Project object */;
+}
